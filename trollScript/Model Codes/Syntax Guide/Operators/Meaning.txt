@@ -1,0 +1,16 @@
+.. connects strings like in lua
+%A% is os.environ.get("A")
+A|"A.tr" imports "A.tr" as A (only works in MOD section)
++ is addition
+- is subtraction
+* is multiply
+/ is divide
+^ is exponent
+
+every other python operator is the same and there is no ":=" operator
+
+;;balls;; is a comment saying balls
+
+;;multiple
+line
+comment;;

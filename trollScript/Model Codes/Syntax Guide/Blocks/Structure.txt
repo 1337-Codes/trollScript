@@ -1,0 +1,18 @@
+;;Comments;;
+
+sct MOD {
+	;;modules are taken with A|"A.tr" to import "A.tr" as A;;
+}
+
+sct CODE {
+	;;Code goes into the code section and labels stay separate from the rest of the code.;;
+	cls Main{
+		var message = ("Hello, World! Hello, "..%COMPUTERNAME%.."!")
+		fnc main() {
+			System.IO.Output(message) ;;The other blocks are `if, ei, else, while, for` where ei is else if.;;
+		}
+	}
+	lbl trMain {
+		Main.main() ;;The trMain label is the one that gets run.;;
+	}
+}

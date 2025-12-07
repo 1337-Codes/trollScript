@@ -1,0 +1,18 @@
+System.IO.Output() is print()
+System.IO.Input() is input()
+System.IO.Return() is return()
+System.CMD.Run() is os.environ()
+System.CMD.Arg[] is sys.argv[]
+System.Vars.Null is None
+System.Vars.True is True
+System.Vars.False is False
+System.Funcs.Break() is break
+System.Funcs.Quit() is quit()
+System.Funcs.Continue() is continue
+System.Funcs.Pass() is pass
+System.Funcs.Goto() is used as goto for labels, System.Funcs.Goto(BALLS) would goto a label named "BALLS"
+
+in, not, and & or stay the same.
+
+.CAP() gives .upper()
+.LOW() gives .lower()

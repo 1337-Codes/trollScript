@@ -1,0 +1,7 @@
+sct MOD {}
+
+sct CODE {
+	lbl trMain {
+		System.IO.Output("Hello, World!")
+	}
+}
